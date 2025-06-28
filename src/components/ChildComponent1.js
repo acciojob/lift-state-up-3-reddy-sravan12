@@ -1,14 +1,12 @@
-import React from "react";
+import React from 'react';
+import './style.css'
 
-const ChildComponent1 = ({ onSelect }) => {
+function ChildComponent1({ onOptionSelect }) {
   return (
-    <div className="child1">
-      <h2>Child Component 1</h2>
-      <button id="option1-btn" onClick={() => onSelect("Option 1")}>
-        Option 1
-      </button>
+    <div>
+      <button className='child1' onClick={() => onOptionSelect('Option 1')}>Select Option 1</button>
     </div>
   );
-};
+}
 
 export default ChildComponent1;
