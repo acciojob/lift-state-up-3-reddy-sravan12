@@ -10,11 +10,12 @@ function App() {
     setSelectedOption(option);
   };
   
-  
+
 
   return (
     <div className="parent">
-      <h1>Lifting State Up Demo</h1>
+     <h1>Parent Component</h1>
+
       <p>Selected Option: <strong>{selectedOption || 'None'}</strong></p>
 
       <ChildComponent1 onOptionSelect={handleOptionChange} />
