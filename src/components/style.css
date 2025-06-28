@@ -1,0 +1,11 @@
+.parent {
+    background-color: greenyellow;
+    width: 400px;
+    height: 300px;
+  }
+  .child1 {
+    background-color: brown;
+  }
+  .child2 {
+    background-color: yellow;
+  }
